@@ -1,3 +1,5 @@
+import { title } from "process";
+
 const data={
     headerMenus:[
         {
@@ -32,6 +34,30 @@ const data={
             name:'Help',
             href:'/page/help'
         },
+    ],
+    carousels:[
+        {
+            title:'Most popular shoes for sale',
+            buttonCaption:'Shop Now',
+            image:'/images/banner3.jpg',
+            url:'/search?catagory=Shoes',
+            isPublished:true,
+        },
+        {
+            title:"Best sellers in T-shirts",
+            buttonCaption:'Shop Now',
+            image:'/images/banner2.jpg',
+            url:'/search?catagory=T-Shirts',
+            isPublished:true,
+        },
+        {
+            title:'Best deals on watches',
+            buttonCaption:'See More',
+            image:'/images/banner1.jpg',
+            url:'/search?catagory=Watches',
+            isPublished:true,
+        },
+       
     ]
 }
 export default data;

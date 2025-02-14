@@ -1,9 +1,9 @@
+import HomeCarousel from '@/components/shared/home/HomeCarousel'
+import data from '@/lib/data'
 import React from 'react'
 
 export default function Home() {
  return(
-  <div className='flex items-center justify-center'>
-    <h1>Home Page Content</h1>
-  </div>
+    <HomeCarousel items={data.carousels}/>
  )
 }
