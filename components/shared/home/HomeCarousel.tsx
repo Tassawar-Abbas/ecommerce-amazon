@@ -33,7 +33,9 @@ export default function HomeCarousel({ items }:
                                     <h2 className={cn('text-xl md:text-6xl font-bold mb-4 text-primary')}>
                                         {item.title}
                                     </h2>
-                                    <Button>{item.buttonCaption}</Button>
+                                    <Button>
+                                        {item.buttonCaption}
+                                    </Button>
                                 </div>
                             </div>
                         </Link>
